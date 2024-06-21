@@ -24,7 +24,6 @@ function sumit_button(){
 	xhr.open("GET",url,true);
 	xhr.send();
 }
-
 // 1-readyState hold karik rakhib ta XMLHttpRequest status ku.
 // 2-onreadystatechange ea function difine kariba jetebele readyState proporty chenge  haba.
 // 3-status 200 response or 404 error.
